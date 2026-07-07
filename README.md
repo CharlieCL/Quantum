@@ -1,6 +1,6 @@
 # Quantum Solver for Black-Scholes Equation
 
-Copyright (c) Adputer Inc. All rights reserved.
+Copyright (c) 2026. All rights reserved.
 Author: Chang Li
 Date: 2026-07-07
 
