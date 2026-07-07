@@ -1,22 +1,26 @@
-# Quantum Solver for Black-Scholes Equation in Fintech
-Black-Scholes Equation in Fintech
+# Quantum Solver for Black-Scholes Equation
+
+# Black-Scholes Equation in Fintech
+
 The Black-Scholes equation (also known as the Black-Scholes-Merton equation) is a deterministic, second-order partial differential equation (PDE) that governs the price evolution of financial derivatives over time. Developed by economists Fischer Black, Myron Scholes, and Robert Merton in 1973, the equation is a cornerstone of modern financial engineering and quantitative modeling.
 
 The fundamental financial insight behind the equation is riskless delta hedging. In an idealized, frictionless market, a trader can perfectly replicate the payoff of an option by dynamically buying and selling a specific fraction of the underlying asset (the asset's "Delta"). Because this continuously adjusted portfolio completely eliminates market randomness and uncertainty, it becomes effectively risk-free. Under the principle of no-arbitrage, the rate of return on this riskless portfolio must precisely equal the risk-free interest rate. The Black-Scholes PDE mathematically encapsulates this exact equilibrium, balancing the derivative's time decay (Theta) and its sensitivity to asset price changes (Gamma) against the risk-free rate.
 
-Key Applications
+* Key Applications
 
-Option Pricing:
+** Option Pricing: **
 It is primarily utilized to calculate the exact theoretical fair price of European-style call and put options (derivatives that can only be exercised at their fixed expiration date).
 
-Risk Management and "The Greeks":
+** Risk Management and "The Greeks": **
 Financial institutions use the model to compute market sensitivities known as "the Greeks." These parameters (Delta, Gamma, Vega, Theta, Rho) quantify how much an option's price changes relative to variables like underlying asset price, volatility, and time, allowing firms to hedge large portfolio exposures.
 
-Corporate Finance & Private Markets: The model is adapted to value non-standard corporate financial instruments that possess option-like characteristics, such as employee stock options, convertible debt notes, warrants, and early-stage venture capital funding milestones.
+** Corporate Finance & Private Markets:** 
+The model is adapted to value non-standard corporate financial instruments that possess option-like characteristics, such as employee stock options, convertible debt notes, warrants, and early-stage venture capital funding milestones.
 
-Foundational Benchmark: It acts as the mathematical baseline for more complex modern financial models that relax its rigid assumptions, leading to advanced derivatives modeling involving stochastic, local, or fractional volatility.
+** Foundational Benchmark:** 
+It acts as the mathematical baseline for more complex modern financial models that relax its rigid assumptions, leading to advanced derivatives modeling involving stochastic, local, or fractional volatility.
 
-TQC-VQE PDE Solver for the Black-Scholes Equation
+# TQC-VQE PDE Solver for the Black-Scholes Equation
 The Triangle Quantum Circuit - Variational Quantum Eigensolver (TQC-VQE) framework offers a powerful hybrid quantum-classical pipeline to solve complex partial differential equations, such as the Black-Scholes equation. Rather than relying entirely on classical computing clusters that scale poorly with high-dimensional options, the TQC-VQE handles the problem through the following specialized architectural layers:
 
 A. Finite Difference Method (FDM) Discretization
