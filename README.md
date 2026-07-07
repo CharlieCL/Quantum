@@ -1,5 +1,9 @@
 # Quantum Solver for Black-Scholes Equation
 
+Copyright (c) Adputer Inc. All rights reserved.
+Author: Chang Li
+Date: 2026-07-07
+
 # Black-Scholes Equation in Fintech
 
 The Black-Scholes equation (also known as the Black-Scholes-Merton equation) is a deterministic, second-order partial differential equation (PDE) that governs the price evolution of financial derivatives over time. Developed by economists Fischer Black, Myron Scholes, and Robert Merton in 1973, the equation is a cornerstone of modern financial engineering and quantitative modeling.
